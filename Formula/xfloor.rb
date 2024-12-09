@@ -21,6 +21,8 @@ class Xfloor < Formula
     end
 
     def install
-        virtualenv_install_with_resources
+        cd "src" do
+            virtualenv_install_with_resources
+        end
     end
   end
