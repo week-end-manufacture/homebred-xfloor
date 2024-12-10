@@ -4,7 +4,7 @@ class Xfloor < Formula
     desc "Our best friend for web scraping"
     homepage "https://github.com/week-end-manufacture/xfloor"
     url "https://github.com/week-end-manufacture/xfloor/archive/refs/tags/0.0.2.tar.gz"
-    sha256 "c1b5a90e0e408e5e6c34f29ee7871cc4abd0be86c261bdfc4daa68bd37dc2cfc"
+    sha256 "01a7bd25285f31abd51db593a7ffaf7a798553ef4f2ee190dc37571fa5cf9c13"
     version "0.0.2"
     license "MIT"
   
