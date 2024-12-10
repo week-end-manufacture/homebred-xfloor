@@ -26,8 +26,8 @@ class Xfloor < Formula
     end
 
     def install
-        cd "src" do
-            virtualenv_install_with_resources
-        end
+        venv = virtualenv_create(libexec, "python3")
+        venv.pip_install resources
+        venv.pip_install_and_link buildpath/"src"
     end
 end
