@@ -3,9 +3,9 @@ class Xfloor < Formula
 
     desc "Our best friend for web scraping"
     homepage "https://github.com/week-end-manufacture/xfloor"
-    url "https://github.com/week-end-manufacture/xfloor/archive/refs/tags/0.0.1.tar.gz"
+    url "https://github.com/week-end-manufacture/xfloor/archive/refs/tags/0.0.2.tar.gz"
     sha256 "c1b5a90e0e408e5e6c34f29ee7871cc4abd0be86c261bdfc4daa68bd37dc2cfc"
-    version "0.0.1"
+    version "0.0.2"
     license "MIT"
   
     depends_on "python@3.9"
