@@ -5,7 +5,7 @@ class Xfloor < Formula
     homepage "https://github.com/week-end-manufacture/xfloor"
     url "https://github.com/week-end-manufacture/xfloor/archive/refs/tags/0.0.5.tar.gz"
     sha256 "00ab2d31483422e019fa0509088a274c0cf29f0f6f1a416962d82c96109a55d9"
-    version "0.0.2"
+    version "0.0.5"
     license "MIT"
   
     depends_on "python@3.9"
